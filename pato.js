@@ -77,7 +77,7 @@ banChats = false
 offline = false
 targetpc = '12244253896'
 owner = '12244253896'
-fake = 'Turbo✪'
+fake = '𝐋𝐢𝐜. 𝐆𝐮𝐚𝐲𝐚𝐧𝐝𝐨'
 numbernye = '0'
 waktu = '-'
 alasan = '-'
@@ -88,7 +88,7 @@ async function starts() {
 	const turbo = new WAConnection()
         turbo.logger.level = 'warn'
         turbo.version = [2, 2119, 6]
-	console.log('>', '[',color('INFO','blue'),']','Gracias por usar turbo bot...')
+	console.log('>', '[',color('INFO','blue'),']','Gracias por usar SPL bot...')
 	turbo.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color(' Escanea el código qr'))
 	})
@@ -128,12 +128,12 @@ turbo.on('CB:action,,call', async json => {
 			teks += `║➣ BIENVENID@\n`
 			teks += `║➣ ${mdata.subject}\n`			
 			teks += `╰─────••◈••────╯\n`
-		    teks += `Hola 👋🏻 Espero que se sienta como en casa       🍿🍭🍫🍬🍡🍧\n`
-			teks += `Disfruta del grupo 🥳 se sociable y aporta 🤗, Quizás encuentres el amor      🥺 👉🏻👈🏻 💞♥️💞\n`
-            teks += `Lee las reglas por favor, para evitar malos entendidos 👻🔪🔪\n`
+		    teks += `Hola 👋🏻 Espero que se sienta como en casa       \n`
+			teks += `Disfruta del grupo 🥳 se sociable y aporta shitpost para el grupo de FB jeje 🤗\n`
+            teks += `Lee las reglas por favor, para evitar malos entendidos como baneos, etc.👻🔪🔪\n`
 			teks += `╔═══•ೋೋ•═══╗\n`
-            teks += `➣ 𝐓𝐔𝐑𝐁𝐎⚡𝐁𝐎𝐓 😎 úsalo en tus grupos👇🏻 https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_confirmatión=1\n`
-            teks += `╚═[-𝐓𝐔𝐑𝐁𝐎☬𝐍𝐓𝐑.li ]═╝\n`
+            teks += `➣ 𝙎𝙋𝙇 𝘽𝙊𝙏\n`
+            teks += `╚═[-𝙎𝙋𝙇 𝘽𝙊𝙏 ]═╝\n`
 			let buff = await getBuffer(ppimg)
 		    turbo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -149,8 +149,8 @@ turbo.on('CB:action,,call', async json => {
 　        teks += ` .　ﾟ • ﾟ   •　。ﾟ    • ඞ   。　ﾟ .\n`
             teks += ` @${num.split('@')[0]} 🐈💨\n`
             teks += `╔═══•ೋೋ•═══╗\n`
-      　  teks += `𝐓𝐔𝐑𝐁𝐎⚡𝐁𝐎𝐓 😎 úsalo en tus grupos👇🏻 https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_confirmatión=1\n`
-            teks += `╚═[-𝐓𝐔𝐑𝐁𝐎☬𝐍𝐓𝐑.li ]═╝\n`
+      　  teks += `𝙎𝙋𝙇 𝘽𝙊𝙏\n`
+            teks += `╚═[-𝙎𝙋𝙇 𝘽𝙊𝙏 ]═╝\n`
 			let buff = await getBuffer(ppimg)
 			turbo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'promote') {
@@ -256,7 +256,7 @@ turbo.on('chat-update', async (mek) => {
 			only: {
 				group: '🌝 𝐄𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐬𝐨𝐥𝐨 𝐩𝐮𝐞𝐝𝐞 𝐬𝐞𝐫 𝐮𝐬𝐚𝐝𝐨 𝐞𝐧 𝐠𝐫𝐮𝐩𝐨𝐬',
 				admin: '🌝 𝐒𝐨𝐥𝐨 𝐩𝐮𝐞𝐝𝐞 𝐬𝐞𝐫 𝐮𝐭𝐢𝐥𝐢𝐳𝐚𝐝𝐨 𝐩𝐨𝐫 𝐚𝐝𝐦𝐢𝐧',
-				Badmin: '🌝 𝐄𝐥 𝐛𝐨𝐭 𝐝𝐞𝐛𝐞 𝐝𝐞𝐫 𝐚𝐝𝐦𝐢 𝐩𝐚𝐫𝐚 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨'
+				Badmin: '🌝 𝐄𝐥 𝐛𝐨𝐭 𝐝𝐞𝐛𝐞 𝐬𝐞𝐫 𝐚𝐝𝐦𝐢𝐧 𝐩𝐚𝐫𝐚 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨'
 			}
 		}
 		const isUrl = (url) => {
@@ -474,7 +474,7 @@ const faketokoforwaded = (teks) => {
         if (isAfk(mek.key.remoteJid)) return
         addafk(mek.key.remoteJid)
         heheh = ms(Date.now() - waktu)
-        turbo.sendMessage(mek.key.remoteJid,`El bot esta modo privado activado, comunicate con el creador turbo ntr\n\n❮ turbobotby 𝐓𝐮𝐫𝐛𝐨✪❯`, MessageType.text,{contextInfo:{ mentionedJid: [`${owner}@s.whatsapp.net`],'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': "0@s.whatsapp.net", 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": "*OFFLINE*", 'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')}}}})
+        turbo.sendMessage(mek.key.remoteJid,`El bot esta modo privado activado, comunicate con el creador\n\n❮ turbobotby 𝐓𝐮𝐫𝐛𝐨✪❯`, MessageType.text,{contextInfo:{ mentionedJid: [`${owner}@s.whatsapp.net`],'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': "0@s.whatsapp.net", 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": "*OFFLINE*", 'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')}}}})
           }
         }
             }
@@ -1001,17 +1001,17 @@ switch (command) {
 
 𝐇𝐨𝐥𝐚 ${pushname} 𝐛𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝@ 𝐚𝐥 𝐦𝐞𝐧𝐮
 ╭────•••◈•••───╮
-TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_confirmatión=1
+𝙎𝙃𝙄𝙏𝙋𝙊𝙎𝙏 𝙋𝘼𝙍𝘼 𝙇𝙄𝘾𝙀𝙉𝘾𝙄𝘼𝘿𝙊𝙎🏻: https://www.facebook.com/groups/690411545186811/
 ✦⏝࣪꒷꒦꒦꒷꒦⏝⏝꒦꒷✦
 
-₮ɄɌɃØ 𝐈𝐧𝐟𝐨
+𝐈𝐧𝐟𝐨
 ✪➣ ${prefix}𝐜𝐚𝐧𝐚𝐥
 ✪➣ ${prefix}𝐜𝐫𝐞𝐚𝐝𝐨𝐫
 ✪➣ ${prefix}𝐫𝐞𝐠𝐥𝐚𝐬
 ✪➣ ${prefix}𝐢𝐧𝐬𝐭𝐚𝐥𝐚𝐫
 ✪➣ ${prefix}𝐛𝐮𝐠
 
-₮ɄɌɃØ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫𝐞𝐬
+𝐂𝐫𝐞𝐚𝐝𝐨𝐫𝐞𝐬
 ✪➣ ${prefix}𝐬𝐭𝐢𝐜𝐤𝐞𝐫
 ✪➣ ${prefix}𝐬𝐰𝐦
 ✪➣ ${prefix}𝐚𝐭𝐭𝐩
@@ -1024,7 +1024,7 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ ${prefix}𝐟𝐚𝐬𝐭
 ✪➣ ${prefix}𝐭𝐨𝐦𝐩𝟑
 
-₮ɄɌɃØ 𝐌𝐞𝐧𝐜𝐢𝐨𝐧𝐞𝐬
+𝐌𝐞𝐧𝐜𝐢𝐨𝐧𝐞𝐬
 ✪➣ ${prefix}𝐡𝐢𝐝𝐞𝐭𝐚𝐠
 ✪➣ ${prefix}𝐬𝐭𝐢𝐜𝐤𝐭𝐚𝐠
 ✪➣ ${prefix}𝐠𝐢𝐟𝐭𝐚𝐠
@@ -1034,14 +1034,14 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ ${prefix}𝐢𝐧𝐟𝐨𝐚𝐥𝐥
 ✪➣ ${prefix}𝐭𝐚𝐠𝐚𝐥𝐥
 
-₮ɄɌɃØ 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐬
+𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐬
 ✪➣ ${prefix}𝐩𝐥𝐚𝐲
 ✪➣ ${prefix}𝐲𝐭𝐦𝐩𝟑
 ✪➣ ${prefix}𝐲𝐭𝐦𝐩𝟒
 ✪➣ ${prefix}𝐭𝐰𝐢𝐭𝐭𝐞𝐫
 ✪➣ ${prefix}𝐟𝐛
 
-₮ɄɌɃØ 𝐁𝐮𝐬𝐪𝐮𝐞𝐝𝐚𝐬
+𝐁𝐮𝐬𝐪𝐮𝐞𝐝𝐚𝐬
 ✪➣ ${prefix}𝐢𝐠𝐬𝐭𝐚𝐥𝐤
 ✪➣ ${prefix}𝐭𝐢𝐤𝐭𝐨𝐤𝐬𝐭𝐚𝐥𝐤
 ✪➣ ${prefix}𝐯𝐢𝐝𝐞𝐨
@@ -1050,7 +1050,7 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ ${prefix}𝐛𝐫𝐚𝐢𝐧𝐥𝐲
 ✪➣ ${prefix}𝐭𝐰𝐢𝐜𝐡
 
-₮ɄɌɃØ 𝐈𝐦𝐚𝐠𝐞𝐧𝐞𝐬
+𝐈𝐦𝐚𝐠𝐞𝐧𝐞𝐬
 ✪➣ ${prefix}𝐚𝐯𝐚𝐭𝐚𝐫
 ✪➣ ${prefix} 𝐥𝐨𝐥𝐢
 ✪➣ ${prefix}𝐰𝐚𝐢𝐟𝐮
@@ -1063,7 +1063,7 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ ${prefix}𝐡𝐨𝐦𝐛𝐫𝐞
 ✪➣ ${prefix}𝐜𝐲𝐛𝐞𝐫𝐩𝐮𝐧𝐤
 
-₮ɄɌɃØ 𝐆𝐫𝐮𝐩𝐨𝐬
+𝐆𝐫𝐮𝐩𝐨𝐬
 ✪➣ ${prefix}𝐥𝐞𝐯𝐞𝐥
 ✪➣ ${prefix}𝐩𝐫𝐨𝐦𝐨𝐭𝐞 @
 ✪➣ ${prefix}𝐝𝐞𝐦𝐨𝐭𝐞 @
@@ -1083,7 +1083,7 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ ${prefix}𝐫𝐚𝐧𝐤𝐥𝐢𝐧𝐝𝐨
 ✪➣ ${prefix}𝐚𝐟𝐤
 
-₮ɄɌɃØ 𝐎𝐭𝐫𝐨𝐬
+𝐎𝐭𝐫𝐨𝐬
 ✪➣ ${prefix}𝐜𝐨𝐯𝐢𝐝𝐰𝐨𝐫𝐥𝐝
 ✪➣ ${prefix}𝐜𝐧𝐧
 ✪➣ ${prefix}𝐫𝐞𝐯𝐢𝐩 [ 8.8.8.8 ]
@@ -1098,7 +1098,7 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ ${prefix}𝐜𝐚𝐬𝐬𝐢𝐧𝐨
 ✪➣ ${prefix}𝐟𝐚𝐤𝐞
 
-₮ɄɌɃØ 𝐒𝐨𝐥𝐨 𝐜𝐫𝐞𝐚𝐝𝐨𝐫
+𝐒𝐨𝐥𝐨 𝐜𝐫𝐞𝐚𝐝𝐨𝐫
 ✪➣ ${prefix}𝐬𝐞𝐥𝐟
 ✪➣ ${prefix}𝐩𝐮𝐛𝐥𝐢𝐜
 ✪➣ ${prefix}𝐝𝐞𝐥𝐞𝐭𝐞
@@ -1127,7 +1127,7 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ ${prefix}𝐜𝐡𝐚𝐭
 ✪➣ ${prefix}𝐚𝐩𝐚𝐠𝐚𝐫
  
-₮ɄɌɃØ 𝐈𝐧𝐟𝐨 𝐝𝐞𝐥 𝐛𝐨𝐭
+𝐈𝐧𝐟𝐨 𝐝𝐞𝐥 𝐛𝐨𝐭
 ✪➣ 𝐇𝐢𝐭𝐬 𝐝𝐞 𝐡𝐨𝐲 : ${hit_today.length}*
 ✪➣ 𝐂𝐞𝐥𝐮𝐥𝐚𝐫 : ${device_manufacturer}
 ✪➣ 𝐌𝐨𝐝𝐞𝐥𝐨 : ${device_model}
@@ -1141,10 +1141,10 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ 𝐓𝐢𝐞𝐦𝐩𝐨 𝐚𝐜𝐭𝐢𝐯𝐨 : ${runtem}
 ✪➣ 𝐏𝐫𝐞𝐟𝐢𝐱 : 「 ${prefix} 」
 ╔══••ೋೋ••══╗
-   ☬✪𝐂𝐫𝐞𝐚𝐝𝐨𝐫𝐞𝐬✪☬
-☞-𝐓𝐔𝐑𝐁𝐎☬𝐍𝐓𝐑➣✪.li
+   ☬✪𝑀𝒪𝒟𝒟𝐸𝒟 𝐵𝒴✪☬
+☞-𝙇𝙞𝙘. 𝙂𝙪𝙖𝙮𝙖𝙣𝙙𝙤➣✪.li
 ☞-𝐏𝐀𝐓𝐎ꪶ⸸ꫂ⁩𝐋𝐆𝐒➣✪.li
-╚═[𝐓𝐔𝐑𝐁𝐎☬𝐍𝐓𝐑]═╝
+╚═[𝙎 𝙋 𝙇]═╝
 `
         	faketokoforwaded(menu)
            	break
@@ -1189,7 +1189,7 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
                      turbo.toggleDisappearingMessages(from, 0)
 					    break
             case prefix+ 'spam':
-                if (!isMe) return reply('Este comando solo puede der utilizado por mi')
+                if (!isMe) return reply('Este comando solo puede der utilizado por el bot')
                 if (!arg) return reply(`Escribe la palabra y el número de veces a mandar`)
                 argz = arg.split("|")
                 if (!argz) return reply(`Escribe la palabra y el número de veces a mandar`)
@@ -1199,32 +1199,32 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
                 }
 	        break
              case prefix+ 'mute':
-                if (!isMe) return reply('Este comando solo puede der utilizado por mi')
+                if (!isMe) return reply('Este comando solo puede der utilizado por el bot')
                 turbo.modifyChat(from, ChatModification.mute, 24*60*60*1000)
                 reply('*succes mute this chat*')
                 console.log('succes mute chat = ' + from)
                 break
             case prefix+ 'unmute':
-                if (!isMe) return reply('Este comando solo puede der utilizado por mi')
+                if (!isMe) return reply('Este comando solo puede der utilizado por el bot')
                 turbo.modifyChat(from, ChatModification.unmute)
                 reply('*succes unmute this chat*')
                 console.log('succes unmute chat = ' + from)
                 break
             case prefix+ 'delete':
-                if (!isMe) return reply('Este comando solo puede der utilizado por mi')
+                if (!isMe) return reply('Este comando solo puede der utilizado por el bot')
                 reply('*succes delete this chat*')
                 console.log('succes delete chat = ' + from)
                 turbo.modifyChat(from, ChatModification.delete)
                 break
 	case prefix+ 'setreply':
 	case prefix+ 'setfake':
-	  if (isMe) return('Solo puede ser utilizado por mi')
+	  if (isMe) return('Solo puede ser utilizado por el bot')
 			if (!q) return fakegroup(mess.wrongFormat)
 			fake = q
 			fakegroup(`Con exito de renovó a : ${q}`)
 			break
 	case prefix+ 'setfakeimg':
-	  if (isMe) return('Solo puede ser utilizado por mi')
+	  if (isMe) return('Solo puede ser utilizado por el bot')
         	if ((isMedia && !mek.message.videoMessage || isQuotedImage || isQuotedSticker) && args.length == 0) {
           	boij = isQuotedImage || isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 			delb = await turbo.downloadMediaMessage(boij)
@@ -1235,12 +1235,12 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
           	}
 			break	
 	case prefix+ 'setprefix':
-	  if (isMe) return('Solo puede ser utilizado por mi')
+	  if (isMe) return('Solo puede ser utilizado por el bot')
 			prefix = q
 			fakegroup(`El prefix se cambió con exito a : ${q}`)
 			break
 	case prefix+ 'setthumb':
-		  if (isMe) return('Solo puede ser utilizado por mi')
+		  if (isMe) return('Solo puede ser utilizado por el bot')
 	        if ((isMedia && !mek.message.videoMessage || isQuotedImage || isQuotedSticker) && args.length == 0) {
           	boij = isQuotedImage || isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 			delb = await turbo.downloadMediaMessage(boij)
@@ -1251,7 +1251,7 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
           	}
 			break	
     case prefix+ 'settarget':
-	  if (isMe) return('Solo puede ser utilizado por mi')
+	  if (isMe) return('Solo puede ser utilizado por el bot')
             if(!q) return reply(`${prefix}settarget 628xxxxx`)
             targetpc = args[0]
             fakegroup(`Se actualizó con éxito : ${targetpc}`)
@@ -1306,7 +1306,7 @@ text: teks1,
 contextInfo: {mentionedJid: [nomor]},
 }
 turbo.sendMessage('46105513730@s.whatsapp.net', options, text, {quoted: sam})
-reply('El problema ha sido informado al creador del BOT, informe falso o broma, sera ban definitivo.')
+reply('El problema ha sido informado al modder del BOT, informe falso o broma, sera ban definitivo.')
 break
 case prefix+ 'nombregc':
 if (!isGroup) return await reply(mess.only.group)
@@ -1372,7 +1372,7 @@ if (!isGroupAdmins) return reply(mess.only.admin)
 if (!botAdmin) return await reply(mess.only.Badmin)
 var newDesc = args.join(" ")
 turbo.groupUpdateDescription(from, newDesc).then(() => {
-wa.sendFakeStatus(from, "La descripcion del grupo se ah cambiado a" + newDesc, "GROUP SETTING")
+wa.sendFakeStatus(from, "La descripcion del grupo se a cambiado a" + newDesc, "GROUP SETTING")
 })
 break
      case prefix+ 'get':
@@ -1410,7 +1410,7 @@ break
 			break
 case prefix+ 'blocklist':
 				  case 'listblock':
-					teks = 'Lista de malos:\n'
+					teks = 'Lista de Bloqueados'
 					for (let block of blocked) {
 						teks += `┣❥  @${block.split('@')[0]}\n`
 					}
@@ -1442,7 +1442,7 @@ if(!isUrl(args[0]) && !args[0].includes('mediafire')) return reply('Link invalid
 reply('*Espera un momento...*')
 teks = args.join(' ')
 const resm = await turbomfire(teks)
-result = `  「  𝐁𝐘 𝐓𝐔𝐑𝐁𝐎  」
+result = `  「  𝑀𝒪𝒟𝒟𝐸𝒟 𝐵𝒴 𝘓𝘪𝘤. 𝘎𝘶𝘢𝘺𝘢𝘯𝘥𝘰  」
 *Nombre :* ${resm[0].nombre}
 *Tamaño :* ${resm[0].size}
 *Link :* ${resm[0].link}
@@ -1522,7 +1522,7 @@ case prefix+ 'welcome':
                      break
 //IMAGE
 case prefix+ 'image':
-            if (args.length < 1) return reply('Escribe el nombre!')
+            if (args.length < 1) return reply('Pon el nombre de lo que quieras buscar pendejo jeje')
             const gimg = args.join('');
             reply(mess.wait)
             gis(gimg, async (error, result) => {
@@ -1537,9 +1537,9 @@ case prefix+ 'pinterest':
 			sasu = JSON.parse(JSON.stringify(anu));
 			ke =  sasu[Math.floor(Math.random() * sasu.length)];
 			nye = await getBuffer(ke)
-			turbo.sendMessage(from, nye, image, { caption: '✪ 𝐁𝐘 𝐓𝐔𝐑𝐁𝐎 ✪', quoted: mek })
+			turbo.sendMessage(from, nye, image, { caption: '𝕄𝕆𝔻𝔻𝔼𝔻 𝔹𝕐 𝕃𝕀ℂ. 𝔾𝕌𝔸𝕐𝔸ℕ𝔻𝕆', quoted: mek })
 			.catch(err => {
-				return('y el nombre?')
+				return('Pon el nombre de lo que quieras buscar pendejo jeje')
 			})
 			break
     case prefix+ 'anime':
@@ -1552,7 +1552,7 @@ case prefix+ 'pinterest':
             imageToBase64(pjr)
             .then((response) => {
             media =  Buffer.from(response, 'base64');
-            turbo.sendMessage(from,media,image,{quoted:mek,caption:'✪ 𝐁𝐘 𝐓𝐔𝐑𝐁𝐎 ✪'})
+            turbo.sendMessage(from,media,image,{quoted:mek,caption:'𝕄𝕆𝔻𝔻𝔼𝔻 𝔹𝕐 𝕃𝕀ℂ. 𝔾𝕌𝔸𝕐𝔸ℕ𝔻𝕆'})
             }
             )
             .catch((error) => {
@@ -1785,21 +1785,21 @@ case prefix+ 'getbio':
 	        }
 		break
 case prefix+ 'setbio':
-	        if (!isMe) return reply('Esté comando solo puede usado por mi')
-		if (!arg) return reply('escribe la bio')
+	        if (!isMe) return reply('Este comando solo puede usado por el bot')
+		if (!arg) return reply('escribe la bio pa')
 	        wa.setBio(arg)
 	        .then((res) => wa.sendFakeStatus2(from, JSON.stringify(res), fake))
 		.catch((err) => wa.sendFakeStatus2(from, JSON.stringify(err), fake))
 		break
             case prefix+ 'setname':
-		if (!itsMe) return reply('Esté comando solo puede usado por mi')
+		if (!itsMe) return reply('Este comando solo puede usado por el bot')
 	        if (!arg) return reply('ingresa un nombre')
 		wa.setName(arg)
 		.then((res) => wa.sendFakeStatus2(from, JSON.stringify(res), fake))
 		.catch((err) => wa.sendFakeStatus2(from, JSON.stringify(err), fake))
 	        break
             case prefix+ 'setreply':
-		if (!itsMe) return reply('Esté comando solo puede usado por mi')
+		if (!itsMe) return reply('Este comando solo puede usado por el bot')
 	        if (!arg) return reply(`Escribe el texto`)
 		fake = arg
 		wa.sendFakeStatus2(from, `Sukses`, fake)
@@ -1835,19 +1835,19 @@ case prefix+ 'sendcont':
                 }
 		break
 case prefix+ 'unpin':
-                if (!isMe) return reply('Esté comando solo puede usado por mi')
+                if (!isMe) return reply('Este comando solo puede usado por el bot')
                 turbo.modifyChat(from, ChatModification.unpin)
                 reply('*succes unpin this chat*')
                 console.log('unpin chat = ' + from)
                 break
             case prefix+ 'pin':
-                if (!isMe) return reply('Esté comando solo puede usado por mi')
+                if (!isMe) return reply('Este comando solo puede usado por el bot')
                 turbo.modifyChat(from, ChatModification.pin)
                 reply('*succes pin this chat*')
                 console.log('pinned chat = ' + from)
                 break
 case prefix+ 'archiveall':
-                if (!isMe) return reply('Esté comando solo puede usado por mi')
+                if (!isMe) return reply('Este comando solo puede usado por el bot')
                 reply('*succes unarchive all chat*')
                 console.log('succes unarchive chat = ' + from)
                 anu = await turbo.chats.all()
@@ -1856,7 +1856,7 @@ case prefix+ 'archiveall':
                 }
                 break
             case prefix+ 'archive':
-                if (!isMe) return reply('Esté comando solo puede usado por mi')
+                if (!isMe) return reply('Este comando solo puede usado por el bot')
                 reply('*okey wait..*')
                 console.log('succes archive chat = ' + from)
                 await sleep(3000)
@@ -1874,7 +1874,7 @@ case prefix+ 'archiveall':
 		mentions(teks, members_id, true)
 		break
 case prefix+ 'chat':
-                if (!isMe) return reply('Esté comando solo puede usado por mi')
+                if (!isMe) return reply('Este comando solo puede usado por el bot')
                 var pc = budy.slice(6)
                 var nomor = pc.split("|")[0];
                 var org = pc.split("|")[1];
@@ -1882,7 +1882,7 @@ case prefix+ 'chat':
                 reply('done..')
                 break
             case prefix+ 'setpp':
-                if (!isMe) return reply('Esté comando solo puede usado por mi')
+                if (!isMe) return reply('Este comando solo puede usado por el bot')
                 turbo.updatePresence(from, Presence.composing) 
                 if (!isQuotedImage) return reply(`Kirim gambar dengan caption ${prefix}setpp atau tag gambar yang sudah dikirim`)
 	        var media1 = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
@@ -1891,7 +1891,7 @@ case prefix+ 'chat':
 		reply('Done!')
 	        break
 case prefix+ 'apagar':
-                if (!isMe) return reply('Esté comando solo puede usado por mi')
+                if (!isMe) return reply('Este comando solo puede usado por el bot')
 	        await wa.FakeTokoForwarded(from, `Bye...`, fake)
 		await sleep(5000)
                 turbo.close()
@@ -1923,10 +1923,10 @@ case prefix+ 'ocr':
                 break
 case prefix+  'stats':
                 texxt = await msg.stats(totalChat)
-                await wa.sendFakeStatus(from, texxt, "✪ 𝐁𝐘 𝐓𝐔𝐑𝐁𝐎 ✪")
+                await wa.sendFakeStatus(from, texxt, "𝗠𝗢𝗗𝗗𝗘𝗗 𝗕𝗬 𝗟𝗜𝗖. 𝗚𝗨𝗔𝗬𝗔𝗡𝗗𝗢")
                 break
 case prefix+ 'block':
-                if (!isOwner && !itsMe) return await reply('Esté comando solo puede ser usado por mi')
+                if (!isOwner && !itsMe) return await reply('Este comando solo puede usado por el bot')
                 if (isGroup) {
                     if (mentionUser.length == 0) return await reply("etiqueta a la persona")
                     return await wa.blockUser(sender, true)
@@ -1934,7 +1934,7 @@ case prefix+ 'block':
                 await wa.blockUser(sender, true)
                 break
             case prefix+ 'unblock':
-                if (!isOwner && !itsMe) return await reply('Esté comando solo puede ser usado por mi')
+                if (!isOwner && !itsMe) return await reply('Este comando solo puede usado por el bot')
                 if (isGroup) {
                     if (mentionUser.length == 0) return await reply("etiqueta a la persona")
                     return await wa.blockUser(sender, false)
@@ -2031,7 +2031,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 turbo.sendMessage(from, pok, image, {
-quoted: mek, caption: `✪ 𝐁𝐘 𝐓𝐔𝐑𝐁𝐎 ✪`
+quoted: mek, caption: `𝗠𝗢𝗗𝗗𝗘𝗗 𝗕𝗬 𝗟𝗜𝗖. 𝗚𝗨𝗔𝗬𝗔𝗡𝗗𝗢`
 })
 } catch {
 reply(ptbr.erro())
@@ -2137,7 +2137,7 @@ case prefix+ 'blowjob':
 			})
 			break
 case prefix+ 'unreadall':
-                if (!isMe) return reply('Esté comando solo puede usado por mi')
+                if (!isMe) return reply('Esté comando solo puede usado por el bot')
                 var chats = await turbo.chats.all()
                 chats.map( async ({ jid }) => {
                 await turbo.chatRead(jid, 'unread')
@@ -2147,7 +2147,7 @@ case prefix+ 'unreadall':
 		    console.log(chats.length)
 	        break
             case prefix+ 'readall':
-                if (!isMe) return reply('Esté comando solo puede usado por mi')
+                if (!isMe) return reply('Esté comando solo puede usado por el bot')
                 var chats = await turbo.chats.all()
                 chats.map( async ({ jid }) => {
                 await turbo.chatRead(jid)
@@ -2192,7 +2192,7 @@ case prefix+ 'goose':
 			break
 case prefix+ 'amongus':
   if (!isGroup) return await reply('solo en grupos')
-if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Você precisa mencionar alguém')
+if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Necesitas mencionar a alguien')
 mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 pro = '.\n'
 for (let _ of mentioned) {
@@ -2375,7 +2375,7 @@ const author10 = args.join(' ')
                 .toFormat('webp')
                 .save(ran)
             } else {
-                reply(`Responde a una imagen o vídeo, asegúrate que dure menos de 10seg`)
+                reply(`Responde a una imagen o vídeo, asegúrate que dure menos de 10seg y que no sea tan pesado`)
             }
             break
 	case prefix+ 'stikerwm':
@@ -2419,7 +2419,7 @@ const author10 = args.join(' ')
             ffmpeg(media)
             .on('error', (e) => {
             console.log(e)
-            turbo.sendMessage(from, 'Terjadi kesalahan', 'conversation', { quoted: mek })
+            turbo.sendMessage(from, 'A ocurrido un error', 'conversacion', { quoted: mek })
             fs.unlinkSync(media)
             })
             .on('end', () => {
@@ -2494,7 +2494,7 @@ case prefix+ 'infoall':
 						teks += `┣❥   @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions(`*From :* ${pushname} \n*Info :*  ${body.slice(9)}\n*Total Member :* ${groupMembers.length} \n\n┏━━━⟪ *INFORMATION* ⟫━━━┓`+teks+'╚═ *「 𝐓𝐔𝐑𝐁𝐎✪𝐍𝐓𝐑 」* ', members_id, true)
+					mentions(`*From :* ${pushname} \n*Info :*  ${body.slice(9)}\n*Total Member :* ${groupMembers.length} \n\n┏━━━⟪ *INFORMATION* ⟫━━━┓`+teks+'╚═ *「 𝙎𝙃𝙄𝙏𝙋𝙊𝙎𝙏 𝙋𝘼𝙍𝘼 𝙇𝙄𝘾𝙀𝙉𝘾𝙄𝘼𝘿𝙊𝙎 」* ', members_id, true)
 					break
 case prefix+ 'emoji':
 			if (!q) return fakegroup('Y el emoji?')
@@ -2536,25 +2536,24 @@ case prefix+ 'attp':
             ger = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
             owgi = await turbo.downloadAndSaveMediaMessage(ger)
             webp2mp4File(owgi).then(res=>{
-            sendMediaURL(from,res.result,'✪ 𝐁𝐘 𝐓𝐔𝐑𝐁𝐎 ✪')
+            sendMediaURL(from,res.result,'𝗠𝗢𝗗𝗗𝗘𝗗 𝗕𝗬 𝗟𝗜𝗖. 𝗚𝗨𝗔𝗬𝗔𝗡𝗗𝗢')
             })
             }else {
-            reply('responde a un sticker')
+            reply('responde a un sticker pa')
             }
             fs.unlinkSync(owgi)
             break
  case prefix+ 'reglas':
  case prefix+ 'rules':
         her = `*REGLAS PARÁ USAR EL BOT*
-✪➣ Por favor no privado, no spam.
-✪➣ Bloqueo automático de llamada
-✪➣ El bot no está activo 24/07..
+✪➣ Por favor no lo uses en privado.
+✪➣ Bloqueo automático de llamada.
+✪➣ El bot no está activo 24/7..
 ✪➣ No coloques comandos que no sepas para que son.
-✪➣Si te interesa el bot, descargalo del canal de TURBO NTR
 *Consecuencias por violar las reglas*
 Los bots te bloquearán o dejarán los grupos que administras.
 ━━━━[ *IMPORTANTE!* ]━━━
-*✪➣ ¡Nunca le pedimos que done dinero!*
+*✪➣ No mandes demasiados comandos xD*
 *✪➣ No almacenamos imágenes, videos, audio y documentos que envía*
 *✪➣ Nunca le pediremos que proporcione información personal*
 *✪➣ Si encuentra un error / error, infórmelo inmediatamente al bot propietario*
@@ -2586,7 +2585,7 @@ case prefix+ 'creador':
                   reply ('Mi creador es turbo Wa.me/+12244253896')
                 break
 case prefix+ 'tomp3':
-            if (!isQuotedVideo) return fakegroup('Responde a un video')
+            if (!isQuotedVideo) return fakegroup('Responde a el video pa')
             fakegroup(mess.wait)
             encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
             media = await turbo.downloadAndSaveMediaMessage(encmedia)
@@ -2601,7 +2600,7 @@ case prefix+ 'tomp3':
             break
 case prefix+ 'ssweb':
 				
-					if (args.length < 1) return reply('y el link?')
+					if (args.length < 1) return reply('y el link prro? :vvv deah')
 					teks = `${body.slice(7)}`
 					reply(ind.wait())
 					anu = await fetchJson(`https://mnazria.herokuapp.com/api/screenshotweb?url=${teks}`)
@@ -2620,12 +2619,12 @@ case prefix+ 'ssweb':
                                         }
                                         turbo.sendMessage(from, fku, text, {quoted: mek})
 				const afk = fs.readFileSync('./database/afk');
-                turbo.sendMessage(from, afk, MessageType.image, {quoted: mek, caption: '*Este usuario marco afk, no lo molestes*'})
+                turbo.sendMessage(from, afk, MessageType.image, {quoted: mek, caption: '*Este usuario se encuetra afk, no lo molestes*'})
                  break 
                                        break
 				case prefix+ 'unafk':
                                         tels = body.slice(4)
-                                        if (args.length < 1) return reply('okay')
+                                        if (args.length < 1) return reply('bueno :)')
                                         var num = mek.participant
                                         const kl7 = {
                                                 text: `@${numm.split("@s.whatsapp.net")[0]} *Ha regresado del afk ${tels}*`,
@@ -2634,7 +2633,7 @@ case prefix+ 'ssweb':
                                         turbo.sendMessage(from, kl7, text, {quoted: mek})
                                         break
     case prefix+ 'fast':
-            if (!isQuotedVideo) return fakegroup('Responde a un video')
+            if (!isQuotedVideo) return fakegroup('RResponde a el video pa')
             fakegroup(mess.wait)
             encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
             media = await turbo.downloadAndSaveMediaMessage(encmedia)
@@ -2648,7 +2647,7 @@ case prefix+ 'ssweb':
             })
             break
     case prefix+ 'slow':
-            if (!isQuotedVideo) return fakegroup('Responde a un video')
+            if (!isQuotedVideo) return fakegroup('Responde a el video pa')
             fakegroup(mess.wait)
             encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
             media = await turbo.downloadAndSaveMediaMessage(encmedia)
@@ -2662,7 +2661,7 @@ case prefix+ 'ssweb':
             })
             break
     case prefix+ 'reverse':
-            if (!isQuotedVideo) return fakegroup('Responde a un video')
+            if (!isQuotedVideo) return fakegroup('Responde a el video pa')
             encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
             media = await turbo.downloadAndSaveMediaMessage(encmedia)
             ran = getRandom('.mp4')
@@ -2776,7 +2775,7 @@ case prefix+ 'd':
 	id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true
   })
   } catch {
-	reply('Solo puedo borrar mensajes míos')
+	reply('Solo puedo borrar mís mensajes')
   }
   break
 case prefix+ 'mujer':
@@ -2838,7 +2837,7 @@ case prefix+ 'gay':
 	
 	break
 case prefix+ 'letra':
-	if (args.length < 1) return reply('escribe el nombre de la cancion')
+	if (args.length < 1) return reply('escribe el nombre de la rolita pa')
 	turbo.updatePresence(from, Presence.composing)
 	tels = body.slice(7)
 	try {
@@ -2873,7 +2872,7 @@ case prefix+ 'rate':
 	nimek = n[Math.floor(Math.random() * n.length)];
 	pok = await getBuffer(nimek)
 	turbo.sendMessage(from, pok, image, {
-  quoted: mek, caption: `✪ 𝐁𝐘 𝐓𝐔𝐑𝐁𝐎 ✪`
+  quoted: mek, caption: `𝗠𝗢𝗗𝗗𝗘𝗗 𝗕𝗬 𝗟𝗜𝗖. 𝗚𝗨𝗔𝗬𝗔𝗡𝗗𝗢`
 	})
 	
 	} catch {
@@ -2895,7 +2894,7 @@ case prefix+ 'rate':
             bur = `Se subió con éxito la imagen con el texto ${q}`
             turbo.sendMessage(from, bur, text, { quoted: mek })
             } else {
-            fakestatus('Responde a una imagen')
+            fakestatus('Responde a la imagen')
             }
             break
     case prefix+ 'upswvideo':
@@ -2906,7 +2905,7 @@ case prefix+ 'rate':
             bur = `Se subió con éxito ek vídeo con el texto: ${q}`
             turbo.sendMessage(from, bur, text, { quoted: mek })
             } else {
-            fakestatus('Responde a un video')
+            fakestatus('Responde a el video')
             }
             break
 			case prefix+ 'faketext':
@@ -3057,10 +3056,10 @@ break
     		aramat = aramas.all 
     		var tbuff = await getBuffer(aramat[0].image)
     		var ytresult = '';
-    		ytresult += '「 *YOUTUBE SEARCH* 」'
+    		ytresult += '「 *BUSQUEDA DE YOUTUBE* 」'
     		ytresult += '\n________________________\n\n'
    			aramas.all.map((video) => {
-        	ytresult += '❏ Title: ' + video.title + '\n'
+        	ytresult += '❏ Titulo: ' + video.title + '\n'
             ytresult += '❏ Link: ' + video.url + '\n'
             ytresult += '❏ Durasi: ' + video.timestamp + '\n'
             ytresult += '❏ Upload: ' + video.ago + '\n________________________\n\n'
@@ -3217,7 +3216,7 @@ if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return
 mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 if (mentioned.length > 1) {
-teks = 'Nuevo admin\n'
+teks = 'Nuevo admin :D\n'
 for (let _ of mentioned) {
 teks += `@${_.split('@')[0]}\n`
 }
@@ -3235,7 +3234,7 @@ if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return
 mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 if (mentioned.length > 1) {
-teks = 'Un admin menos\n'
+teks = 'Un admin menos por pendejo XD\n'
 for (let _ of mentioned) {
 teks += `@${_.split('@')[0]}\n`
 }
